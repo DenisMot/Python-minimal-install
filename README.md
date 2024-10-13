@@ -10,7 +10,7 @@ The minimal requirements to start with a human movement data analysis project ar
 - `VSCode` : the development environment (editor, debugger...)  
 - `conda` : the package management system to manage your python environment 
 
-You will need approximately 2.5 GB of free space on your hard drive to install all the needed tools.
+You will need approximately 1.5 GB of free space on your hard drive to install all the needed tools.
 
 #### Install python 
 - Install `miniconda` to get a minimal python install (https://conda.io/miniconda.html). 
@@ -63,4 +63,9 @@ Github is a cloud-based platform that lets you track and control changes to your
   - e-mail: your student's email
   - username: your First name + the first 3 letter of your Familly name + `_student` (e.g. `DenisMot_student`)
   
+
+### Other install options
+If you are interested in a more complete install, you can install `anaconda` instead of `miniconda`.  
+Yet, the `anaconda` install is a big install (4.5 GB) that comes with a lot of packages that you do not need (at the beginning).  
+Take a look at the `anaconda` vs `miniconda` web page https://docs.anaconda.com/distro-or-miniconda/ before making your choice.
 
