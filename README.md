@@ -14,8 +14,9 @@ You will need approximately 1.5 GB of free space on your hard drive to install a
 
 #### Install python 
 
-[!CAUTION]
-This method ensures that you do not break your system's Python installation. It will install a separate Python environment (managed by conda) that you can safely use for your projects. 
+> [!IMPORTANT]
+> **Please follow this procedure even though you already have a working python installation**.  :warning:
+>`miniconda` ensures that you do not break your system's Python installation(s): it will install a separate new Python environment that you can safely use for your projects. 
 
 - Install `miniconda` to get a minimal python install (https://conda.io/miniconda.html). 
     - Download the **Latest Miniconda Installer** appropriate for your computer (Mac users: prefer the `pkg` version)
