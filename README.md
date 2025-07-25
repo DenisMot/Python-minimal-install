@@ -61,6 +61,29 @@ Open a shell window to run the install commands
 - install the matplotlib widget backend, to display interactive plots in jupyter notebooks
     - `conda install -c conda-forge ipympl`
 
+### Test you environment 
+Once you have installed all the required tools, you can test your environment by running a simple Jupyter notebook in VSCode.
+- Open VSCode
+- Create a new file (File -> New File)
+- Save the file (File -> Save As) in a new directory (e.g., `python-minimal-install-test`) with the name `test.ipynb`   
+- In the file, type the following code in a cell and run it (Run -> Run Cell)
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 2*np.pi, 100)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.show()
+```
+- You should see a plot of the sine function in the `test.ipynb` file.
+
+### Next steps
+- Learn how to use `VSCode` and `Jupyter` to develop and document your ideas (text + code).  
+- Learn how to use [Python-for-HMS-Template](https://github.com/DenisMot/Python-for-HMS-Template) to save time and minimize errors in your projects.  
+- Learn how to use `Git` to manage the evolution of your ideas, and `GitHub` to share them with others.  
+
 ## Bonus install
 The following tools are not required to start with a human movement data analysis project, but they will be useful later on.
 
