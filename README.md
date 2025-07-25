@@ -1,8 +1,10 @@
 # Python-minimal-install
 
-A minimal Python environment for reproducible research in human movement sciences (and maybe for other sciences as well...).
+A minimal Python environment for reproducible research in human movement sciences.
 
-### Minimal install 
+## Minimal install 
+
+
 The minimal requirements to start with a human movement data analysis project are :  
 - `python` : the language 
   - `numpy` and `matplotlib` : the python packages for scientific data analyses
@@ -11,6 +13,12 @@ The minimal requirements to start with a human movement data analysis project ar
 - `conda` : the package management system to manage your python environment 
 
 You will need approximately 1.5 GB of free space on your hard drive to install all the needed tools.
+
+### Install python 
+> [!IMPORTANT]
+> **Please follow this procedure even though you already have a working python installation**.  :warning:   
+>`miniconda` ensures that you do not break your system's Python installation(s): it will install a separate new Python environment that you can safely use for your projects. 
+
 
 ### Install python 
 - Install `miniconda` to get a minimal python install (https://conda.io/miniconda.html). 
@@ -31,16 +39,6 @@ You will need approximately 1.5 GB of free space on your hard drive to install a
     - double check the options you selected when installing `miniconda`
     - double check the version of the installer you have chosen 
 
-### Install the required python packages
-The goal is to install the packages in the `base` environment (i.e., your default python environment).  
-Open a shell window to run the install commands
-- install numpy, to manipulate data series and matrices
-    - `conda install numpy`
-- install matplotlib, to plot data
-    - `conda install matplotlib`
-- install ipykernel and nbformat, to run jupyter notebooks in VSCode
-    - `conda install ipykernel nbformat`
-
 ### Install VSCode 
 VSCode is a development environment well suited for python. 
 - Install `VSCode` 
@@ -50,20 +48,21 @@ VSCode is a development environment well suited for python.
     - `VS Code Python extension`, to edit,run and debug the python code. 
     - `Jupyter Extension for Visual Studio Code`, to edit,run and debug the jupyter notebooks. 
 
-### Install GitHub Desktop
-GitHub Desktop is an easy front end to the Git version control system. 
-- Install `GitHub Desktop` 
-    - download the appropriate version for you computer from https://github.com/apps/desktop
-    - install `GitHub Desktop`, accepting all defaults
+### Install the required python packages
+The goal is to install the packages in the `base` environment (i.e., your default python environment).  
+Open a shell window to run the install commands
+- install numpy, to manipulate data series and matrices
+    - `conda install numpy`
+- install matplotlib, to plot data
+    - `conda install matplotlib`
+- install scipy, to perform scientific computations
+    - `conda install scipy`
+- install ipykernel and nbformat, to run jupyter notebooks in VSCode
+    - `conda install ipykernel nbformat`
+- install the matplotlib widget backend, to display interactive plots in jupyter notebooks
+    - `conda install -c conda-forge ipympl`
 
-### Create a GitHub account (for you as a student)
-Github is a cloud-based platform that lets you track and control changes to your code. As a student, you get free pro access to some very useful tools, including [Copilot](https://github.com/features/copilot), a tool that can help you learn faster. 
-
-- go to https://github.com/ and sign up
-  - e-mail: your student's email
-  - username: your First name + the first 3 letter of your Family name + `_student` (e.g. `DenisMot_student`)
-  
-### Test you environment 
+## Test you environment 
 Once you have installed all the required tools, you can test your environment by running a simple Jupyter notebook in VSCode.
 - Open VSCode
 - Create a new file (File -> New File)
@@ -86,10 +85,25 @@ plt.show()
 - Learn how to use [Python-for-HMS-Template](https://github.com/DenisMot/Python-for-HMS-Template) to save time and minimize errors in your projects.  
 - Learn how to use `Git` to manage the evolution of your ideas, and `GitHub` to share them with others.  
 
+## Bonus install
+The following tools are not required to start with a human movement data analysis project, but they will be useful later on.
+
+### Create a GitHub account (for you as a student)
+Github is a cloud-based platform that lets you track and control changes to your code. As a student, you get free pro access to some very useful tools. 
+
+- go to https://github.com/ and sign up
+  - e-mail: your student's email
+  - username: your First name + the first 3 letter of your Familly name + `_student` (e.g. `DenisMot_student`)
+  
+
+### Install GitHub Desktop
+GitHub Desktop is an easy front end to the Git version control system. 
+- Install `GitHub Desktop` 
+    - download the appropriate version for you computer from https://github.com/apps/desktop
+    - install `GitHub Desktop`, accepting all defaults
 
 
-
-### Other install options
+## Other install options
 If you are interested in a more complete install, you can install `anaconda` instead of `miniconda`.  
 Yet, the `anaconda` install is a big install (4.5 GB) that comes with a lot of packages that you do not need (at the beginning).  
 Take a look at the `anaconda` vs `miniconda` web page https://docs.anaconda.com/distro-or-miniconda/ before making your choice.
