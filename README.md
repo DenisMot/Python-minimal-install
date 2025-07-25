@@ -13,6 +13,10 @@ The minimal requirements to start with a human movement data analysis project ar
 You will need approximately 1.5 GB of free space on your hard drive to install all the needed tools.
 
 #### Install python 
+
+[!CAUTION]
+This method ensures that you do not break your system's Python installation. It will install a separate Python environment (managed by conda) that you can safely use for your projects. 
+
 - Install `miniconda` to get a minimal python install (https://conda.io/miniconda.html). 
     - Download the **Latest Miniconda Installer** appropriate for your computer (Mac users: prefer the `pkg` version)
     - Install `miniconda`, accepting all defaults 
@@ -47,14 +51,15 @@ Open a shell window to run the install commands
     - `conda install numpy`
 - install matplotlib, to plot data
     - `conda install matplotlib`
+- install scipy, to perform scientific computations
+    - `conda install scipy`
 - install ipykernel and nbformat, to run jupyter notebooks in VSCode
     - `conda install ipykernel nbformat`
+- install the matplotlib widget backend, to display interactive plots in jupyter notebooks
+    - `conda install -c conda-forge ipympl`
 
-### Install GitHub Desktop
-GitHub Desktop is an easy front end to the Git version control system. 
-- Install `GitHub Desktop` 
-    - download the appropriate version for you computer from https://github.com/apps/desktop
-    - install `GitHub Desktop`, accepting all defaults
+## Bonus install
+The following tools are not required to start with a human movement data analysis project, but they will be useful later on.
 
 ### Create a GitHub account (for you as a student)
 Github is a cloud-based platform that lets you track and control changes to your code. As a student, you get free pro access to some very useful tools. 
@@ -64,7 +69,14 @@ Github is a cloud-based platform that lets you track and control changes to your
   - username: your First name + the first 3 letter of your Familly name + `_student` (e.g. `DenisMot_student`)
   
 
-### Other install options
+### Install GitHub Desktop
+GitHub Desktop is an easy front end to the Git version control system. 
+- Install `GitHub Desktop` 
+    - download the appropriate version for you computer from https://github.com/apps/desktop
+    - install `GitHub Desktop`, accepting all defaults
+
+
+## Other install options
 If you are interested in a more complete install, you can install `anaconda` instead of `miniconda`.  
 Yet, the `anaconda` install is a big install (4.5 GB) that comes with a lot of packages that you do not need (at the beginning).  
 Take a look at the `anaconda` vs `miniconda` web page https://docs.anaconda.com/distro-or-miniconda/ before making your choice.
