@@ -61,7 +61,7 @@ Open a shell window to run the install commands
 - install the matplotlib widget backend, to display interactive plots in jupyter notebooks
     - `conda install -c conda-forge ipympl`
 
-### Test you environment 
+## Test you environment 
 Once you have installed all the required tools, you can test your environment by running a simple Jupyter notebook in VSCode.
 - Open VSCode
 - Create a new file (File -> New File)
