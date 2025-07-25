@@ -2,7 +2,9 @@
 
 A minimal Python environment for reproducible research in human movement sciences.
 
-### Minimal install 
+## Minimal install 
+
+
 The minimal requirements to start with a human movement data analysis project are :  
 - `python` : the language 
   - `numpy` and `matplotlib` : the python packages for scientific data analyses
@@ -12,12 +14,12 @@ The minimal requirements to start with a human movement data analysis project ar
 
 You will need approximately 1.5 GB of free space on your hard drive to install all the needed tools.
 
-#### Install python 
-
 > [!IMPORTANT]
-> **Please follow this procedure even though you already have a working python installation**.  :warning:
+> **Please follow this procedure even though you already have a working python installation**.  :warning:   
 >`miniconda` ensures that you do not break your system's Python installation(s): it will install a separate new Python environment that you can safely use for your projects. 
 
+
+### Install python 
 - Install `miniconda` to get a minimal python install (https://conda.io/miniconda.html). 
     - Download the **Latest Miniconda Installer** appropriate for your computer (Mac users: prefer the `pkg` version)
     - Install `miniconda`, accepting all defaults 
