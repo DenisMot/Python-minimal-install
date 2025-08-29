@@ -67,7 +67,7 @@ Once you have installed all the required tools, you can test your environment by
 - Open VSCode
 - Create a new file (File -> New File)
 - Save the file (File -> Save As) in a new directory (e.g., `python-minimal-install-test`) with the name `test.ipynb`   
-- In the file, type the following code in a cell and run it (Run -> Run Cell)
+- In the file, type the following code in a cell 
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -78,6 +78,8 @@ y = np.sin(x)
 plt.plot(x, y)
 plt.show()
 ```
+- Verify that the selected kernel is 'base (Python x.xx.x)' (top right of the window). 
+- Run the cell (Run -> Run Cell) or 'Run All' button. 
 - You should see a plot of the sine function in the `test.ipynb` file.
 
 ### Next steps
