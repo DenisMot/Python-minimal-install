@@ -97,6 +97,9 @@ Github is a cloud-based platform that lets you track and control changes to your
   - e-mail: your student's email
   - username: your First name + the first 3 letter of your Familly name + `_student` (e.g. `DenisMot_student`)
   
+> [!IMPORTANT]
+> **If you already have a GitHub account, do not create a new one at your student email**.  :warning:
+> GitHub does not allow to merge two accounts. You will have to add your student email to your existing account, as a secondary email. Then, you can **change the primary email of your account to your student email**.    
 
 ### Install GitHub Desktop
 GitHub Desktop is an easy front end to the Git version control system. 
