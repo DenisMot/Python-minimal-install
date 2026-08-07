@@ -16,8 +16,8 @@ You will need approximately 1.5 GB of free space on your hard drive to install a
 
 ### Install python 
 > [!IMPORTANT]
-> **Please follow this procedure even though you already have a working python installation**.  :warning:   
->`miniconda` ensures that you do not break your system's Python installation(s): it will install a separate new Python environment that you can safely use for your projects. 
+> **Please follow this procedure even though you already have a working python installation**. 
+> `miniconda` ensures that you do not break your system's Python installation(s): it will install a separate new Python environment that you can safely use for your projects. 
 
 
 ### Install python 
@@ -91,14 +91,14 @@ plt.show()
 The following tools are not required to start with a human movement data analysis project, but they will be useful later on.
 
 ### Create a GitHub account (for you as a student)
-Github is a cloud-based platform that lets you track and control changes to your code. As a student, you get free pro access to some very useful tools. 
+Github is a cloud-based platform that lets you track and control changes to your code. As a student, you get free pro access to some very useful tools such as Copilot. 
 
 - go to https://github.com/ and sign up
   - e-mail: your student's email
-  - username: your First name + the first 3 letter of your Familly name + `_student` (e.g. `DenisMot_student`)
+  - username: your First name + the first 3 letter of your Familly name  (e.g. `DenisMot`)
   
 > [!IMPORTANT]
-> **If you already have a GitHub account, do not create a new one at your student email**.  :warning:
+>  :warning: **If you already have a GitHub account, do not create a new one at your student email**.  :warning:  
 > GitHub does not allow to merge two accounts. You will have to add your student email to your existing account, as a secondary email. Then, you can **change the primary email of your account to your student email**.    
 
 ### Install GitHub Desktop
